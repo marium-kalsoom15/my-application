@@ -1,0 +1,15 @@
+<resources><string name="app_name">Mid</string>
+<string name="numb">03115326968</string>
+<string name="name">Nabiikhan</string>
+<string name="mm">Submit</string>
+<string name="nn">Name</string>
+<string name="pp">Phone#</string>
+<string name="tt">click any alphabet to check its occurrence</string>
+    <string-array name="alphabets">
+        <item>A</item>
+        <item>I</item>
+        <item>M</item>
+        <item>R</item>
+        <item>U</item>
+    </string-array>
+</resources>

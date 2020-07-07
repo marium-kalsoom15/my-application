@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/purple"/>
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/purple"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Mobile number:"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/purple"/>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/peach"
+        android:hint="11-Digits No-space No-Alphabets"
+        android:inputType="phone"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:background="@color/yellow"
+        android:text="Next"
+        android:fontFamily="cursive"/>
+</LinearLayout>
